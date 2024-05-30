@@ -203,7 +203,7 @@ main {
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
-        gap: 20%;
+        gap: 0%;
         
     }
 
@@ -240,9 +240,9 @@ main {
     }
 
     .container-right {
-        margin: 1vh 5vw 1vh 5vw;
+        margin: 0vh 5vw 0vh 5vw;
         width: auto;
-        height: 30%;
+        height: 40%;
     }
 
     .container-right h1 {
@@ -270,7 +270,7 @@ main {
 @media screen and (max-width:405px) {
 
     header {
-        margin-bottom: 33.8vh;
+        margin: 17px 15px 76px 0;
     }
     
     .container-right {
@@ -281,7 +281,7 @@ main {
     }
     .container-left img {
         max-width: 100%;
-        margin: 27vw auto;
+        margin: 0vw auto;
         height: auto;
     }
 }    
