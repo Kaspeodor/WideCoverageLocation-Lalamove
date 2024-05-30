@@ -7,14 +7,6 @@
     font-style: normal;
 }
 
-main {
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    flex-direction: row;
-    
-}
-
 
 header {
     margin-top: 47px;
@@ -73,6 +65,14 @@ header .button:hover {
 header .button:active {
     opacity: .6;
     cursor: pointer;
+}
+
+main {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    
 }
 
 
