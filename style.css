@@ -17,11 +17,13 @@ main {
 header {
     margin-top: 47px;
     margin-left: 42px;
+    cursor: context-menu;
 
 }
 
 header .a {
     color: #17233D;
+    cursor: context-menu;
     font-size: 14px;
     font-weight: 400;
     line-height: 21px;
@@ -33,11 +35,13 @@ header .a {
 }
 header .a:hover {
     opacity: .8;
+    cursor: pointer;
     
 }
 
 header .a:active {
     opacity: .6;
+    cursor: pointer;
     
 }
 header .button {
@@ -48,6 +52,7 @@ header .button {
     border-radius: 5px;
 
     /*texto do botão*/
+    cursor: context-menu;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
@@ -113,6 +118,7 @@ header .button:active {
 }
 
 .container-right p {
+    cursor: context-menu;
     width: auto;
     margin: 47px 0;
 
