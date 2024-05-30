@@ -199,15 +199,12 @@ main {
 
 @media screen and (max-width:1250px) {
 
-    body {
-        min-height: 100vh;
-    }
-
     main {
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
-        justify-content: center;
+        gap: 20%;
+        
     }
 
     header .a {
@@ -217,7 +214,7 @@ main {
 
     header {
         text-align: end;
-        margin-bottom: 2vh;
+        margin-bottom: 15vh;
         margin-top: 5vh;
         margin-right: 6.5vw;
 
@@ -232,8 +229,6 @@ main {
     .container-left {
         width: 100%;
         height: 50%;
-        padding: 5%;
-        margin-top: 20px;
 
     }
 
@@ -257,7 +252,7 @@ main {
 
     .container-right p {
         width: auto;
-        padding: 0 auto;
+        margin: 29px auto;
         text-align: center;
     }
 
@@ -273,8 +268,20 @@ main {
 }
 
 @media screen and (max-width:405px) {
-    main {
-        gap: 15%;
-    }
 
-}
+    header {
+        margin-bottom: 33.8vh;
+    }
+    
+    .container-right {
+        
+        width: auto;
+        height: 50%;
+
+    }
+    .container-left img {
+        max-width: 100%;
+        margin: 27vw auto;
+        height: auto;
+    }
+}    
