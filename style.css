@@ -103,6 +103,7 @@ header .button:active {
 
 .container-right h1 {
     width: auto;
+    cursor: context-menu;
 
     font-size: 4rem;
     font-weight: 700;
@@ -115,7 +116,7 @@ header .button:active {
     width: auto;
     margin: 47px 0;
 
-    
+    cursor: context-menu;
     font-size: 1.2rem;
     font-weight: 400;
     line-height: 33px;
